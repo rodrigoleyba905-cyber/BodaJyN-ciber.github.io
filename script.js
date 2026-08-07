@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const appearOptions = {
         threshold: 0.15, // Se activa cuando el 15% del elemento es visible
-        rootMargin: "0px 0px -50px 0px"
+        rootMargin: "0px 0px -50px 0px"   
     };
 
     const appearOnScroll = new IntersectionObserver(function(entries, observer) {
